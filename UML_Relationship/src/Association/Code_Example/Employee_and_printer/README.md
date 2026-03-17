@@ -1,5 +1,6 @@
 ****
 **Output**:
+
 ```
 Alice assigned to printer: HP LaserJet
 Bob assigned to printer: HP LaserJet
