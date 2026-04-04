@@ -148,3 +148,32 @@ classDiagram
     Employee --> Printer : uses
 
 ```
+# Interaction Perspective
+**Association implies:**
+- One object invokes behavior of another.
+- Collaboration is explicit.
+- References enable method interaction.
+- State synchronization may be required in bidirectional models.
+
+**Association does not imply:**
+- Ownership
+- Lifecycle control
+- Memory responsibility
+- Structural containment
+----
+
+# Final words
+- Use association for collaboration.
+- Prefer unidirectional over bidirectional unless required.
+- Explicitly define multiplicity.
+- Maintain consistency in bidirectional relationships.
+- Do not confuse association with aggregation or composition.
+
+`Association models interaction — not hierarchy and not containment`.
+
+If two objects:
+- Exist independently,
+- Collaborate through references,
+- Do not control each other’s lifecycle,
+
+The relationship is Association.
