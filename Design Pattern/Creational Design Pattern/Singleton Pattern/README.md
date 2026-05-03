@@ -297,7 +297,7 @@ java
 public class ReflectionProofSingleton {
     private static ReflectionProofSingleton instance;
     
-    private ReflectionProofSingleton() {
+    private ReflectionProofSingleton() {g
         // Prevent reflection attack
         if (instance != null) {
             throw new RuntimeException("Use getInstance() method to create instance");
@@ -326,6 +326,10 @@ public class ReflectionProofSingleton {
 - Treat Singleton as a **constraint-driven decision**, not a convenience tool.
 
 Singleton solves **control**, but often at the cost of **flexibility**
+
+`Real Worl Use Cases`
+- Cache Manager
+- Thread Pool Manager
 
 ### Singleton Pattern Summary
 
